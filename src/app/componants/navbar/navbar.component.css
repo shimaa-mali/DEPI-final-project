@@ -1,0 +1,15 @@
+.active-link{
+  background-color: #312d81;
+  color: white ;
+
+}
+.container .navbar-brand img{
+
+  width: 80px;
+}
+.navbar{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
