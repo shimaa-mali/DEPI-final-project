@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    display: block;
+    max-width: 25%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   margin: 15px;
+
+}
+
+button {
+  background: none;
+  border: none;
+  color: #312d81;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button:first-of-type {
+  left: 10px;
+}
+
+button:last-of-type {
+  right: 10px;
+}
