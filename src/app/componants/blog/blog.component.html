@@ -1,7 +1,13 @@
+<div class="container">
+ <div class="text">
+  <h1>My Blog</h1>
+  <h4>Perfect solution for digital experience</h4>
+</div>
 <div class="slider">
   <div class="slides" [style.transform]="'translateX(-' + currentIndex * 100 + '%)'">
     <img *ngFor="let photo of photos" [src]="photo" class="slide" />
   </div>
   <button (click)="prev()"><i class="fa-solid fa-circle-chevron-right"></i></button>
   <button (click)="next()"><i class="fa-solid fa-circle-chevron-left"></i></button>
+ </div>
 </div>

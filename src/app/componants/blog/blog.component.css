@@ -37,3 +37,7 @@ button:first-of-type {
 button:last-of-type {
   right: 10px;
 }
+.container{
+margin-top: 5%;
+margin-bottom: 5%;
+}
